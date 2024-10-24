@@ -6,7 +6,7 @@ This tutorial provides a comprehensive guide on image classification using Suppo
 
 * **Python 3.x:** Ensure you have Python 3.x installed. Check by running `python --version` in your terminal. Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/) if needed.
 * **Optional: Anaconda:** While not mandatory, Anaconda offers a convenient environment management system for Python. Download it from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution).
-* **Git:** Install Git for version control and collaboration: [https://git-scm.com/](https://git-scm.com/).
+
 
 **Installation**
 
@@ -14,7 +14,7 @@ This tutorial provides a comprehensive guide on image classification using Suppo
 
     - Using Anaconda Prompt or your terminal, create and activate a virtual environment named `image_classification`:
 
-      ```bash
+      ```bash__Go to anaconda prompt, Activate created environment using command "conda activate image_classification"
       conda create -n image_classification python=3.x  # Replace 3.x with your desired Python version
       source activate image_classification  # Linux/macOS
       activate image_classification        # Windows
@@ -22,10 +22,10 @@ This tutorial provides a comprehensive guide on image classification using Suppo
 
 2.  **Install Required Libraries:**
 
-    - Within the activated environment, install `scikit-learn` and `opencv-python` for image processing:
+    - open the ipynb file and install required libraries
 
       ```bash
-      pip install scikit-learn opencv-python
+      pip install scikit-learn 
       ```
 
 **Getting Started**
