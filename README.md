@@ -3,46 +3,44 @@
 This tutorial provides a comprehensive guide on image classification using Support Vector Machines (SVM) with Python's `scikit-learn` library. It also delves into K-Nearest Neighbors (KNN) and Decision Trees, allowing you to compare these machine learning techniques for image classification.
 
 **Prerequisites**
-
-* **Python 3.x:** Ensure you have Python 3.x installed. Check by running `python --version` in your terminal. Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/) if needed.
+  - Download all the files in the repository and put it any folder(eg. Named Image classification)
 * **Optional: Anaconda:** While not mandatory, Anaconda offers a convenient environment management system for Python. Download it from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution).
 
-
-**Installation**
+- Open Anaconda Navigator
+- Create a new environment by going to "Environments tab".
+- Install jupyter notebook and Launch.
+- Open Image Classification ipynb file which was downloaded earlier.
+- Add a cell above the code and use following commands one by one:
+- 1. !pip install tensorflow
+  2. !pip install matplotlib
+  3. !pip install scikit-learn
+ 
+     
+**Installation through Anaconda Prompt**
 
 1.  **Create a Virtual Environment (Recommended):**
 
     - Using Anaconda Prompt or your terminal, create and activate a virtual environment named `image_classification`:
 
-      ```bash__Go to anaconda prompt, Activate created environment using command "conda activate image_classification"
+      ```bash
       conda create -n image_classification python=3.x  # Replace 3.x with your desired Python version
       source activate image_classification  # Linux/macOS
-      activate image_classification        # Windows
+      conda activate image_classification        # Windows
       ```
 
 2.  **Install Required Libraries:**
 
-    - open the ipynb file and install required libraries
+    - in Anaconda prompt write 
 
       ```bash
-      pip install scikit-learn 
+      1. pip install tensorflow
+  2. pip install matplotlib
+  3. pip install scikit-learn
       ```
 
-**Getting Started**
-
-1.  **Clone this Repository:**
-
-    Open your terminal, navigate to your desired working directory, and clone this repository using Git:
-
-    ```bash
-    git clone [https://github.com/your-username/Image-Classification-using-SVM-Fully-explained-tutorial.git](https://github.com/your-username/Image-Classification-using-SVM-Fully-explained-tutorial.git)
-    cd Image-Classification-using-SVM-Fully-explained-tutorial
-    ```
 
 2.  **Run the Jupyter Notebook:**
-
-    - Launch your Jupyter Notebook by running `jupyter notebook` in your terminal (if installed) or using the launcher in Anaconda Navigator.
-    - Open `Image_Classification.ipynb` in the Jupyter Notebook interface and double-click to run the code.
+    -After installation of libraries , double-click to run the code.
 
 **Explanation of the Code**
 
