@@ -34,8 +34,8 @@ This tutorial provides a comprehensive guide on image classification using Suppo
 
       ```bash
       1. pip install tensorflow
-  2. pip install matplotlib
-  3. pip install scikit-learn
+      2. pip install matplotlib
+      3. pip install scikit-learn
       ```
 
 
